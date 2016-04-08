@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="Darts.Domain.Models.Leg">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="GetPlayerTurns" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Method Name="Leg" Hidden="true" />
+      <Field Name="players" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAEgAwAEAAAAAAgAIAAIAAAgAAAIAA=</HashCode>
+      <FileName>Domain\Models\Leg.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentPlayer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Players" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Darts.Domain.Models.SinglePlayerLeg">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="SinglePlayerLeg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAgCgAAAAAAAAAAAAIAAAEAAAAAAAAA=</HashCode>
+      <FileName>Domain\Models\SinglePlayerLeg.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Turns" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Darts.Domain.Models.Match">
+    <Position X="0.75" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="GetLegPlayerIndex" Hidden="true" />
+      <Method Name="GetPlayerName" Hidden="true" />
+      <Field Name="legs" Hidden="true" />
+      <Method Name="Match" Hidden="true" />
+      <Method Name="StartNewLeg" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIBAAEgASAAQAACEBAAIAAQCAAEAAAIAA=</HashCode>
+      <FileName>Domain\Models\Match.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentLeg" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Legs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Darts.Domain.Models.Turn">
+    <Position X="6.75" Y="3.5" Width="1.75" />
+    <Members>
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="Turn" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAgAQAAAAAAAAAAIAACUAAAAAAAAA=</HashCode>
+      <FileName>Domain\Models\Turn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Throws" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Darts.Domain.Models.ThrowResult">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="Double" Hidden="true" />
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Field Name="InnerBull" Hidden="true" />
+      <Method Name="IsValid" Hidden="true" />
+      <Field Name="MultiplierNames" Hidden="true" />
+      <Field Name="OuterBull" Hidden="true" />
+      <Field Name="Outside" Hidden="true" />
+      <Method Name="Parse" Hidden="true" />
+      <Method Name="Single" Hidden="true" />
+      <Method Name="ThrowResult" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Triple" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAAAAAgMgAxAAACAAAADAIAAAAEAAIAAAAA=</HashCode>
+      <FileName>Domain\Models\ThrowResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

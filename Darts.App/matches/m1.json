@@ -1,0 +1,97 @@
+﻿
+{
+  "Id": "m1",
+  "PlayerNames": [
+    "balbes",
+    "byvaliy"
+  ],
+  "InitialScore": 20,
+  "MaxLegsCount": 2,
+  "Finished": true,
+  "Legs": [
+    {
+      "Id": "0b448ac3-70ec-4816-a3a6-09092e066692",
+      "PlayersCount": 2,
+      "FinishOrder": [
+        0,
+        1
+      ],
+      "Players": [
+        {
+          "PlayerIndex": 0,
+          "Score": 0,
+          "Turns": [
+            {
+              "Throws": [
+                "D10"
+              ],
+              "InitialScore": 20
+            }
+          ]
+        },
+        {
+          "PlayerIndex": 1,
+          "Score": 20,
+          "Turns": []
+        }
+      ],
+      "Finished": true
+    },
+    {
+      "Id": "4618d5fe-5a80-4440-962b-08f51298defe",
+      "PlayersCount": 2,
+      "FinishOrder": [
+        0,
+        1
+      ],
+      "Players": [
+        {
+          "PlayerIndex": 0,
+          "Score": 0,
+          "Turns": [
+            {
+              "Throws": [
+                "D10"
+              ],
+              "InitialScore": 20
+            }
+          ]
+        },
+        {
+          "PlayerIndex": 1,
+          "Score": 20,
+          "Turns": []
+        }
+      ],
+      "Finished": true
+    }
+  ],
+  "CurrentLeg": {
+    "Id": "4618d5fe-5a80-4440-962b-08f51298defe",
+    "PlayersCount": 2,
+    "FinishOrder": [
+      0,
+      1
+    ],
+    "Players": [
+      {
+        "PlayerIndex": 0,
+        "Score": 0,
+        "Turns": [
+          {
+            "Throws": [
+              "D10"
+            ],
+            "InitialScore": 20
+          }
+        ]
+      },
+      {
+        "PlayerIndex": 1,
+        "Score": 20,
+        "Turns": []
+      }
+    ],
+    "Finished": true
+  }
+}
